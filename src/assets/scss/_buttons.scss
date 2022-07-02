@@ -1,0 +1,32 @@
+._btn {
+    padding: 8px 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.btn-nex {
+    border-radius: 30px;
+    background: $btn-nex-bg;
+    color: $color-secondary;
+    
+    &:hover {
+        background: $color-primary;
+        color: white;
+    }
+}
+
+.btn-green {
+    background-color: $color-primary;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid transparent;
+
+    &:hover {
+        background-color: white;
+        color: $color-primary;
+        border: 2px solid $color-primary;
+    }
+}
