@@ -4,8 +4,8 @@
         <div class="my-container vertical-padding">
             <div class="row">
                 <div class="col offset-6">
-                    <div class="subtitle text-uppercase mb-2">fusions & acquisitions</div>
-                    <div class="text-capitalize title mb-4">insurance consulting</div>
+                    <div class="subtitle">fusions & acquisitions</div>
+                    <div class="text-capitalize title main-title mb-4">insurance consulting</div>
                     <div class="row row-cols-2">
                         <div v-for="placeholder in placeholders" :key="placeholder" class="col">
                             <input type="text" class="form-control bg-input mb-2" id="exampleFormControlInput1" :placeholder="placeholder">

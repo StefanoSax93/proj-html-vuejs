@@ -1,5 +1,5 @@
 .my-container {
-    width: 930px;
+    width: 900px;
     margin: 0 auto;
 }
 .bg-header {
@@ -12,10 +12,21 @@
     font-size: 14.5px;
     font-weight: 600;
     color: $color-secondary;
+    text-transform: uppercase;
+    margin-bottom: 10px;
 }
 .title {
-    font-size: 65px;
-    font-weight: 900;
+    font-size: 40px;
+    font-weight: 960;
     font-family: Poppins, sans-serif;
     line-height: 80px;
+}
+.main-title {
+    font-size: 60px;
+}
+.title-bg {
+    background-color: #0E272D;
+    padding: 0 14px;
+    margin-right: 7px;
+    border-radius: 5px;
 }
