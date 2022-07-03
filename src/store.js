@@ -22,5 +22,11 @@ export const state = Vue.observable({
         {id:'03', title:'Assignment of responsabilities'},
         {id:'04', title:'Formatting porcess'},
         {id:'05', title:'Continuity formalization'},
+    ],
+    TeamList: [
+        {img:'team-1.jpg', name:'David Cooper', role: 'cto & co-founder'},
+        {img:'team-3.jpg', name:'David Cooper', role: 'cto & co-founder'},
+        {img:'team-2.jpg', name:'David Cooper', role: 'cto & co-founder'},
+        {img:'team-4.jpg', name:'David Cooper', role: 'cto & co-founder'}
     ]
 })

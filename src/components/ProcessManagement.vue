@@ -48,13 +48,4 @@ export default {
 .line {
     border-bottom:5px solid $color-primary-opaque;
 }
-.board {
-    background-color: $color-primary-opaque;
-    width: 35px;
-    aspect-ratio: 1/1;
-    line-height: 35px;
-    border-radius: 50%;
-    font-weight: bold;
-    color: $color-primary;
-}
 </style>

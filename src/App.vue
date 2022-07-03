@@ -47,7 +47,7 @@ export default {
 
 #app {
   font-family: Montserrat, sans-serif;
-  font-size: 14px;
+  font-size: 13.8px;
 }
 .gapped {
   gap: 30px;
