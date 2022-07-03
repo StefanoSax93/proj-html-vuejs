@@ -15,5 +15,12 @@ export const state = Vue.observable({
         {icon: 'fa-plane', title: 'Middle Marketing'},
         {icon: 'fa-globe', title: 'Legal Consulting'},
         {icon: 'fa-box-archive', title: 'Regulatory Risk'},
+    ],
+    ProcessList: [
+        {id:'01', title:'Collection on information'},
+        {id:'02', title:'Strategic Planning'},
+        {id:'03', title:'Assignment of responsabilities'},
+        {id:'04', title:'Formatting porcess'},
+        {id:'05', title:'Continuity formalization'},
     ]
 })
