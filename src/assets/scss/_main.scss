@@ -5,6 +5,12 @@
 .bg-header {
     background-color: $color-header;
 }
+.bg_dark {
+    background-color: $color-bg-dark;
+}
+.bg_light {
+    background-color: $color-bg-light;
+}
 .text_primary {
     color: $color-primary;
 }
@@ -25,8 +31,11 @@
     font-size: 60px;
 }
 .title-bg {
-    background-color: #0E272D;
+    background-color: $color-primary-opaque;
     padding: 0 14px;
     margin-right: 7px;
     border-radius: 5px;
+}
+p {
+    color: $p-text-color;
 }

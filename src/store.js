@@ -7,5 +7,13 @@ export const state = Vue.observable({
         {icon: 'fa-lock', title: 'security'},
         {icon: 'fa-file-pen', title: 'certificate'},
         {icon: 'fa-graduation-cap', title: 'expertise'},
+    ],
+    ServicesList: [
+        {icon: 'fa-sitemap', title: 'Audit & Assurance'},
+        {icon: 'fa-briefcase', title: 'Financial Advisory'},
+        {icon: 'fa-chart-simple', title: 'AnalYtics and M&A'},
+        {icon: 'fa-plane', title: 'Middle Marketing'},
+        {icon: 'fa-globe', title: 'Legal Consulting'},
+        {icon: 'fa-box-archive', title: 'Regulatory Risk'},
     ]
 })
