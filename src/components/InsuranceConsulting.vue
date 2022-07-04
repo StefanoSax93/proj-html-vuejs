@@ -1,9 +1,9 @@
 <template>
-    <div class="position-relative">
-        <img src="../../public/img/bg-6.jpg" alt="" class="jumbotron-1">
+    <div class="jumbotron-1">
         <div class="my-container vertical-padding">
-            <div class="row">
-                <div class="col offset-6">
+            <div class="row justify-content-center">
+                <div class="col d-none d-lg-block"></div>
+                <div class="col-6">
                     <div class="subtitle">fusions & acquisitions</div>
                     <div class="text-capitalize title main-title mb-4">insurance consulting</div>
                     <div class="row row-cols-2">
@@ -55,11 +55,9 @@ export default {
 <style lang="scss">
 @import '../assets/scss/variables';
 .jumbotron-1 {
-    position: absolute;
-    width: 100%;
-    top: -125px;
-    left: 0;
-    z-index: -5;
+    background-image: url('../../public/img/bg-6.jpg');
+    background-position: right 0% bottom 30%;
+    background-size: cover;
 }
 .vertical-padding {
 padding: 150px 0;
