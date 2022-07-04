@@ -10,7 +10,7 @@
 
 .btn-nex {
     border-radius: 30px;
-    background: $btn-nex-bg;
+    background: linear-gradient(to right, $color-primary-opaque 50%, transparent 50%);
     color: $color-secondary;
     
     &:hover {

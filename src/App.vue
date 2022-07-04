@@ -8,13 +8,9 @@
         </div>
         <div>
           <div class="d-flex gapped align-items-center">
-            <div>
-              <i class="fa-solid fa-phone me-2"></i>
-              <span>+1 (305) 1234-5678</span>
-            </div>
-            <div>
-              <i class="fa-solid fa-envelope me-2"></i>
-              <span>hello@example.com</span>
+            <div v-for="(info,i) in agencyInfo" :key="i">
+              <i :class="`fa-solid ${info.icon} me-2`"></i>
+              <span>{{info.text}}</span>
             </div>
             <i class="fa-brands fa-facebook-f"></i>
             <i class="fa-brands fa-twitter"></i>
@@ -33,10 +29,16 @@
 import TheHeader from './components/TheHeader.vue'
 import TheMain from './components/TheMain.vue'
 import TheFooter from './components/TheFooter.vue'
+import {state} from './store'
 
 export default {
   name: 'App',
-  components: {TheHeader,TheMain,TheFooter}
+  components: {TheHeader,TheMain,TheFooter},
+  computed: {
+    agencyInfo() {
+      return state.agencyInfo.slice(0,2)
+    }
+  }
 }
 </script>
 
