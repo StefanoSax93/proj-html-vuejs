@@ -10,7 +10,7 @@
                         They are fundamentals that become daily attitudes.
                     </p>
                     <div class="row ">
-                        <div class="col-6 text-white mb-4" v-for="(member,i) in TeamList()" :key="i">
+                        <div class="col-6 text-white mb-4" v-for="(member,i) in teamList" :key="i">
                             <div class="d-flex gap-3">
                                 <img :src="`img/${member.img}`" alt="" class="img-style">
                                 <div class="p-2">
@@ -61,9 +61,9 @@
 import {state} from '../store'
 export default {
     name: 'TheTeam',
-    methods: {
-        TeamList() {
-            return state.TeamList
+    computed: {
+        teamList() {
+            return state.teamList
         }
     }
 }

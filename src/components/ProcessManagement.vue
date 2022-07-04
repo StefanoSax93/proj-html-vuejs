@@ -10,7 +10,7 @@
         </div>
         <div class="my-5">
             <div class="d-flex justify-content-center">
-                <div class="text-center" v-for="process in ProcessList()" :key="process.id">
+                <div class="text-center" v-for="process in processList" :key="process.id">
                     <div class="d-flex justify-content-center align-items-center">
                         <div class="flex-grow-1 line"></div>
                         <div class="board">{{process.id}}</div>
@@ -34,9 +34,9 @@ import {state} from '../store';
 
 export default {
     name: 'ProcessManagement',
-    methods: {
-        ProcessList() {
-            return state.ProcessList;
+    computed: {
+        processList() {
+            return state.processList;
         }
     }
 }

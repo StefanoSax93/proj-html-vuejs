@@ -1,14 +1,14 @@
 import Vue from 'vue'
 
 export const state = Vue.observable({
-    NavLinks: ['home', 'about', 'services', 'process', 'team', 'blog'],
-    CompanyList: [
+    navLinks: ['home', 'about', 'services', 'process', 'team', 'blog'],
+    companyList: [
         {icon: 'fa-award', title: 'tradition'},
         {icon: 'fa-lock', title: 'security'},
         {icon: 'fa-file-pen', title: 'certificate'},
         {icon: 'fa-graduation-cap', title: 'expertise'},
     ],
-    ServicesList: [
+    servicesList: [
         {icon: 'fa-sitemap', title: 'Audit & Assurance'},
         {icon: 'fa-briefcase', title: 'Financial Advisory'},
         {icon: 'fa-chart-simple', title: 'AnalYtics and M&A'},
@@ -16,17 +16,22 @@ export const state = Vue.observable({
         {icon: 'fa-globe', title: 'Legal Consulting'},
         {icon: 'fa-box-archive', title: 'Regulatory Risk'},
     ],
-    ProcessList: [
+    processList: [
         {id:'01', title:'Collection on information'},
         {id:'02', title:'Strategic Planning'},
         {id:'03', title:'Assignment of responsabilities'},
         {id:'04', title:'Formatting porcess'},
         {id:'05', title:'Continuity formalization'},
     ],
-    TeamList: [
+    teamList: [
         {img:'team-1.jpg', name:'David Cooper', role: 'cto & co-founder'},
         {img:'team-3.jpg', name:'David Cooper', role: 'cto & co-founder'},
         {img:'team-2.jpg', name:'David Cooper', role: 'cto & co-founder'},
         {img:'team-4.jpg', name:'David Cooper', role: 'cto & co-founder'}
+    ],
+    latestNews: [
+        {img:'news-1.jpg',text:'Increasing creativity is possible for everyone'},
+        {img:'news-2.jpg',text:'Because market research is part of the business plan'},
+        {img:'news-3.jpg',text:'Working from home is now a trend'}
     ]
 })

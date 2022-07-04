@@ -17,7 +17,7 @@
                 </div>
                 <div class="col">
                     <div class="row row-cols-2">
-                        <div class="col" v-for="(item,i) in CompanyList()" :key="i">
+                        <div class="col" v-for="(item,i) in companyList" :key="i">
                             <div class="py-3">
                                 <div class="mb-3">
                                     <i :class="`fa solid ${item.icon} subtitle fs-5`"></i>
@@ -38,9 +38,9 @@ import {state} from '../store';
 
 export default {
     name: 'TheCompany',
-    methods: {
-        CompanyList() {
-            return state.CompanyList;
+    computed: {
+        companyList() {
+            return state.companyList;
         }
     }
 }

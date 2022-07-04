@@ -5,6 +5,7 @@
         <TheServices/>
         <ProcessManagement/>
         <TheTeam/>
+        <LatestNews/>
     </div>
 </template>
 
@@ -14,11 +15,12 @@ import TheCompany from './TheCompany.vue';
 import TheServices from './TheServices.vue';
 import ProcessManagement from './ProcessManagement.vue';
 import TheTeam from './TheTeam.vue';
+import LatestNews from './LatestNews.vue';
 
 
     export default {
         name: 'TheMain',
-        components: { InsuranceConsulting, TheCompany, TheServices, ProcessManagement , TheTeam },
+        components: { InsuranceConsulting, TheCompany, TheServices, ProcessManagement, TheTeam, LatestNews },
     }
 
 </script>

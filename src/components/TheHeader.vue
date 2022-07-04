@@ -1,10 +1,10 @@
 <template>
-        <div class="sticky-top py-3 bg-nav">
+        <div class="sticky-top py-3 bg-white">
             <div class="my-container">
                 <div class="d-flex justify-content-between align-items-center">
                     <a class="_btn btn-nex">N e x <span class="text-black">g e n</span> </a>
                     <div class="d-flex align-items-center">
-                        <span v-for="link in NavLinks()" :key="link">
+                        <span v-for="link in navLinks" :key="link">
                             <ul class="nav">
                                 <li class="nav-item">
                                     <a class="nav-link" aria-current="page" href="#">{{link}}</a>
@@ -25,9 +25,9 @@ import {state} from '../store';
 
     export default {
         name: 'TheHeader',
-        methods: {
-            NavLinks() {
-                return state.NavLinks;
+        computed: {
+            navLinks() {
+                return state.navLinks;
             }
         }
     }
@@ -36,12 +36,6 @@ import {state} from '../store';
 
 <style lang="scss" scoped>
 @import '../assets/scss/variables';
-
-.bg-nav {
-    background-image: url('../../public/img/bg-6.jpg');
-    background-size: cover;
-    background-position: top;
-
     .nav-link {
     color: black;
     text-decoration: none;
@@ -52,6 +46,5 @@ import {state} from '../store';
             color: $color-primary;
         }
     }
-}
 
 </style>

@@ -13,7 +13,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-4 mb-3" v-for="(service,i) in ServicesList()" :key="i">
+                <div class="col-4 mb-3" v-for="(service,i) in servicesList" :key="i">
                     <div class="card border-0 p-4">
                         <div class="d-flex justify-content-between text_primary mb-3">
                             <i :class="`fa solid ${service.icon} fs-2`"></i>
@@ -36,9 +36,9 @@ import {state} from '../store';
 
 export default {
     name: 'TheServices',
-    methods: {
-        ServicesList() {
-            return state.ServicesList;
+    computed: {
+        servicesList() {
+            return state.servicesList;
         }
     }
 }

@@ -19,7 +19,7 @@
                                     </div>
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                    <li v-for="link in NavLinks()" :key="link"><a class="dropdown-item" href="#">{{link}}</a></li>
+                                    <li v-for="link in navLinks" :key="link"><a class="dropdown-item" href="#">{{link}}</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -44,9 +44,9 @@ export default {
             placeholders: ['Name', 'Email', 'Phone']
         }
     },
-    methods: {
-        NavLinks() {
-            return state.NavLinks;
+    computed: {
+        navLinks() {
+            return state.navLinks;
         }
     }
 }
