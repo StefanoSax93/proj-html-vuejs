@@ -1,6 +1,7 @@
 import Vue from 'vue'
 
 export const state = Vue.observable({
+    placeholders: ['Name', 'Email', 'Phone'],
     navLinks: ['home', 'about', 'services', 'process', 'team', 'blog'],
     companyList: [
         {icon: 'fa-award', title: 'tradition'},

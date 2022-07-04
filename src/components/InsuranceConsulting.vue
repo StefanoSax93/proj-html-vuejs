@@ -39,14 +39,12 @@ import {state} from '../store';
 
 export default {
     name: 'InsuranceConsulting',
-    data() {
-        return {
-            placeholders: ['Name', 'Email', 'Phone']
-        }
-    },
     computed: {
         navLinks() {
             return state.navLinks;
+        },
+        placeholders() {
+            return state.placeholders;
         }
     }
 }
