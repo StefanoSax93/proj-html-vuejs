@@ -13,8 +13,8 @@
                 <div class="col-4" v-for="(item,i) in latestNews" :key="i">
                     <div class="position-relative">
                         <img :src="`img/${item.img}`" alt="" class="w-100 card-board">
-                        <div class="card-overlay card-board p-4 text-center fs-5">
-                            <div class="d-flex h-100 text-white align-items-end">
+                        <div class="card-overlay card-board p-3 p-md-4 text-center">
+                            <div class="d-flex h-100 text-white align-items-end fs-5">
                                 {{item.text}}
                             </div>
                         </div>

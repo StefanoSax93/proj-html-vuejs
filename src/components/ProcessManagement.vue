@@ -9,14 +9,14 @@
             </p>
         </div>
         <div class="my-5">
-            <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-center flex-wrap flex-xl-nowrap">
                 <div class="text-center" v-for="process in processList" :key="process.id">
                     <div class="d-flex justify-content-center align-items-center">
-                        <div class="flex-grow-1 line"></div>
+                        <div class="flex-grow-1 line d-none d-xl-flex"></div>
                         <div class="board">{{process.id}}</div>
-                        <div class="flex-grow-1 line"></div>
+                        <div class="flex-grow-1 line d-none d-xl-flex"></div>
                     </div> 
-                    <div class="px-5">
+                    <div class="mx-3">
                         <div class="fw-bold fs-5 my-3">{{process.title}}</div>
                         <p>
                             Lorem ipsum dolor sit amet

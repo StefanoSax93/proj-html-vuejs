@@ -1,7 +1,7 @@
 <template>
     <div class="py-5 bg-news">
         <div class="my-container p-5">
-            <div class="row gap-3">
+            <div class="row flex-column flex-md-row gap-3">
                 <div class="col">
                     <div class="subtitle">newsletter</div>
                     <div class="title text-white mb-2"><span class="title-bg">Know</span> First</div>

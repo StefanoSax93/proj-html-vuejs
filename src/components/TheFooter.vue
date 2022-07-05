@@ -3,7 +3,7 @@
         <div class="py-5 bg_dark">
             <div class="my-container py-5 mb-5 text-white">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col col-md-3 mb-2">
                         <a href="" class="_btn btn-nex fs-6 d-inline-block mb-4">N e x <span class="text-white">g e n</span></a>
                         <div class="mb-4">A Functional HTML Template for Corporate & Business</div>
                         <div class="mb-4">
@@ -15,8 +15,8 @@
                         <a href="" class="d-inline-block _btn btn-green-outline text-white">get in touch</a>
                     </div>
                     <div class="col">
-                        <div class="row h-100">
-                            <div class="col h-100" v-for="(info,id) in footerInfo" :key="id">
+                        <div class="row">
+                            <div class="col mb-2" v-for="(info,id) in footerInfo" :key="id">
                                 <div class="my-card">
                                     <div class="fw-bold fs-5 mb-3">{{info.title}}</div>
                                     <ul class="list-unstyled">
@@ -34,7 +34,7 @@
         </div>
         <div class="bg-black py-4 position-relative">
             <div class="my-container d-flex justify-content-between align-items-center text-white">
-                <small>Enjoy the low price. We are tracking every intention of piracy.</small>
+                <small class="d-none d-md-flex">Enjoy the low price. We are tracking every intention of piracy.</small>
                 <small>&#169; 2020 NEXGEN is Proudly Powered by <a href="" class="text_primary text-decoration-none">Codings</a>.</small>
             </div>
             <a href="" class="arrow"><i class="fa-solid fa-2x fa-circle-arrow-up"></i></a>

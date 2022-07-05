@@ -2,15 +2,15 @@
     <div class="bg_dark py-5">
         <div class="my-container py-5">
             <div class="subtitle">we like what we do</div>
-            <div class="row gap-1">
-                <div class="col-8">
+            <div class="row flex-column flex-lg-row gap-1">
+                <div class="col col-lg-8">
                     <div class="title text-white"><span class="title-bg">Team</span>of Experts</div>
                     <p class="text-white mb-5">
                         Ethics and integrity are the bases on which our professionals build their careers.
                         They are fundamentals that become daily attitudes.
                     </p>
                     <div class="row ">
-                        <div class="col-6 text-white mb-4" v-for="(member,i) in teamList" :key="i">
+                        <div class="col col-md-6 text-white mb-4" v-for="(member,i) in teamList" :key="i">
                             <div class="d-flex gap-3">
                                 <img :src="`img/${member.img}`" alt="" class="img-style">
                                 <div class="p-2">
