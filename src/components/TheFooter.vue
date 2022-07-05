@@ -35,7 +35,7 @@
         <div class="bg-black py-4 position-relative">
             <div class="my-container d-flex justify-content-between align-items-center text-white">
                 <small>Enjoy the low price. We are tracking every intention of piracy.</small>
-                <small>&#169; 2020 NEXGEN is Proudly Powered by <span class="text_primary">Codings</span>.</small>
+                <small>&#169; 2020 NEXGEN is Proudly Powered by <a href="" class="text_primary text-decoration-none">Codings</a>.</small>
             </div>
             <a href="" class="arrow"><i class="fa-solid fa-2x fa-circle-arrow-up"></i></a>
         </div>

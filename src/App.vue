@@ -8,7 +8,7 @@
         </div>
         <div>
           <div class="d-flex gapped align-items-center">
-            <div v-for="(info,i) in agencyInfo" :key="i">
+            <div v-for="(info,i) in agencyInfo" :key="i" class="d-none d-md-block">
               <i :class="`fa-solid ${info.icon} me-2`"></i>
               <span>{{info.text}}</span>
             </div>

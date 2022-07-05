@@ -1,6 +1,41 @@
-.my-container {
-    width: 900px;
-    margin: 0 auto;
+.my-container,
+.my-container-fluid,
+.my-container-xxl,
+.my-container-xl,
+.my-container-lg,
+.my-container-md,
+.my-container-sm {
+width: 100%;
+padding-left: var(--bs-gutter-x, 0.75rem);
+padding-right: var(--bs-gutter-x, 0.75rem);
+margin-left: auto;
+margin-right: auto;
+}
+
+@media (min-width: 576px) {
+.my-container-sm, .my-container {
+    max-width: 550px;
+}
+}
+@media (min-width: 768px) {
+.my-container-md, .my-container-sm, .my-container {
+    max-width: 700px;
+}
+}
+@media (min-width: 992px) {
+.my-container-lg, .my-container-md, .my-container-sm, .my-container {
+    max-width: 900px;
+}
+}
+@media (min-width: 1200px) {
+.my-container-xl, .my-container-lg, .my-container-md, .my-container-sm, .my-container {
+    max-width: 950px;
+}
+}
+@media (min-width: 1400px) {
+.my-container-xxl, .my-container-xl, .my-container-lg, .my-container-md, .my-container-sm, .my-container {
+    max-width: 1000px;
+}
 }
 .bg-header {
     background-color: $color-header;

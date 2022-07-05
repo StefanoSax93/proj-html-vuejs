@@ -3,10 +3,10 @@
         <div class="my-container vertical-padding">
             <div class="row justify-content-center">
                 <div class="col d-none d-lg-block"></div>
-                <div class="col-6">
+                <div class="col-10 col-lg-6">
                     <div class="subtitle">fusions & acquisitions</div>
                     <div class="text-capitalize title main-title mb-4">insurance consulting</div>
-                    <div class="row row-cols-2">
+                    <div class="row row-cols-1 row-cols-md-2">
                         <div v-for="placeholder in placeholders" :key="placeholder" class="col">
                             <input type="text" class="form-control bg-input mb-2" id="exampleFormControlInput1" :placeholder="placeholder">
                         </div>
