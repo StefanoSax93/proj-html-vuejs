@@ -19,7 +19,7 @@
                                     </div>
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                    <li v-for="link in navLinks" :key="link"><a class="dropdown-item" href="#">{{link}}</a></li>
+                                    <li v-for="link in navLinks" :key="link"><a class="dropdown-item" :href="link.href">{{link.title}}</a></li>
                                 </ul>
                             </div>
                         </div>

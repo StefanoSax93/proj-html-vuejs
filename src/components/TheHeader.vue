@@ -7,7 +7,7 @@
                         <span v-for="link in navLinks" :key="link">
                             <ul class="nav">
                                 <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#">{{link}}</a>
+                                    <a class="nav-link" aria-current="page" :href="link.href">{{link.title}}</a>
                                 </li>
                             </ul>
                         </span>
@@ -19,7 +19,7 @@
                             <i class="fa-solid fa-2x fa-bars text_primary"></i>
                         </div>
                         <ul class="dropdown-menu">
-                            <li v-for="link in navLinks" :key="link"><a class="dropdown-item" href="#">{{link}}</a></li>
+                            <li v-for="link in navLinks" :key="link"><a class="dropdown-item" :href="link.href">{{link.title}}</a></li>
                         </ul>
                     </div>
                 </div>

@@ -7,7 +7,14 @@ export const state = Vue.observable({
         {icon:'fa-location-dot', text:'Main Avenue, 987'},
     ],
     placeholders: ['Name', 'Email', 'Phone'],
-    navLinks: ['home', 'about', 'services', 'process', 'team', 'blog'],
+    navLinks: [
+        {title:'home', href: '#'}, 
+        {title:'about', href: '#about'},
+        {title:'services', href: '#services'}, 
+        {title:'process', href: '#process'}, 
+        {title:'team', href: '#team'},  
+        {title:'blog', href: '#blog'}, 
+    ],
     companyList: [
         {icon: 'fa-award', title: 'tradition'},
         {icon: 'fa-lock', title: 'security'},

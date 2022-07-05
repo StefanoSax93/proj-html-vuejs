@@ -1,5 +1,5 @@
 <template>
-    <div class="bg_dark py-5">
+    <div class="bg_dark py-5" id="team">
         <div class="my-container py-5">
             <div class="subtitle">we like what we do</div>
             <div class="row flex-column flex-lg-row gap-1">

@@ -1,5 +1,5 @@
 <template>
-    <div class="py-5">
+    <div class="py-5" id="process">
         <div class="my-container pt-5 px-5 text-center">
             <div class="subtitle">how it works in practice</div>
             <div class="title"><span class="text_primary title-bg">Process</span> Management</div>

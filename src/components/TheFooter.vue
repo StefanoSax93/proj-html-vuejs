@@ -2,7 +2,7 @@
     <div>
         <div class="py-5 bg_dark">
             <div class="my-container py-5 mb-5 text-white">
-                <div class="row">
+                <div class="row flex-column flex-md-row">
                     <div class="col col-md-3 mb-2">
                         <a href="" class="_btn btn-nex fs-6 d-inline-block mb-4">N e x <span class="text-white">g e n</span></a>
                         <div class="mb-4">A Functional HTML Template for Corporate & Business</div>
@@ -16,7 +16,7 @@
                     </div>
                     <div class="col">
                         <div class="row">
-                            <div class="col mb-2" v-for="(info,id) in footerInfo" :key="id">
+                            <div class="col-6 col-lg mb-2" v-for="(info,id) in footerInfo" :key="id">
                                 <div class="my-card">
                                     <div class="fw-bold fs-5 mb-3">{{info.title}}</div>
                                     <ul class="list-unstyled">

@@ -1,19 +1,19 @@
 <template>
-    <div class="py-5">
+    <div class="py-5" id="blog">
         <div class="my-container py-5">
             <div class="subtitle">our editorial content</div>
             <div class="title">Latest <span class="title-bg text_primary">News</span></div>
-            <div class="d-flex justify-content-between mt-2 mb-4">
+            <div class="d-flex flex-column flex-md-row justify-content-between mt-2 mb-4">
                 <p>Every week we publish content about what is best in business world.</p>
                 <div>
-                    <a href="" class="_btn btn-green">see all</a>
+                    <a href="" class="_btn btn-green mb-4">see all</a>
                 </div>
             </div>
             <div class="row">
-                <div class="col-4" v-for="(item,i) in latestNews" :key="i">
+                <div class="col-12 col-sm-4 mb-2" v-for="(item,i) in latestNews" :key="i">
                     <div class="position-relative">
                         <img :src="`img/${item.img}`" alt="" class="w-100 card-board">
-                        <div class="card-overlay card-board p-3 p-md-4 text-center">
+                        <div class="card-overlay card-board p-2 p-md-4 text-center">
                             <div class="d-flex h-100 text-white align-items-end fs-5">
                                 {{item.text}}
                             </div>
