@@ -1,5 +1,5 @@
 <template>
-        <div class="sticky-top py-3 bg-white">
+        <nav class="sticky-top py-3" :class="{'bg-light': scrollPosition > 100}">
             <div class="my-container">
                 <div class="d-flex justify-content-between align-items-center">
                     <a class="_btn btn-nex">N e x <span class="text-black">g e n</span></a>
@@ -24,7 +24,7 @@
                     </div>
                 </div>
             </div> 
-        </div>    
+        </nav>    
 </template>
 
 <script>
@@ -33,6 +33,19 @@ import {state} from '../store';
 
     export default {
         name: 'TheHeader',
+        data() {
+            return {
+                scrollPosition: null
+            } 
+        },
+        methods: {
+            updateScroll() {
+                this.scrollPosition = window.scrollY
+            }
+        },
+        mounted() {
+                window.addEventListener('scroll', this.updateScroll);
+        },
         computed: {
             navLinks() {
                 return state.navLinks;

@@ -1,5 +1,6 @@
 <template>
-    <div class="jumbotron-1">
+    <div class="position-relative">
+        <img src="../../public/img/bg-6.jpg" alt="" class="jumbotron">
         <div class="my-container vertical-padding">
             <div class="row justify-content-center">
                 <div class="col d-none d-lg-block"></div>
@@ -52,10 +53,15 @@ export default {
 
 <style lang="scss">
 @import '../assets/scss/variables';
-.jumbotron-1 {
-    background-image: url('../../public/img/bg-6.jpg');
-    background-position: right 0% bottom 30%;
-    background-size: cover;
+.jumbotron {
+    position: absolute;
+    left: 0;
+    top: -120px;
+    width: 100%;
+    height: calc(100% + 120px);
+    object-fit: cover;
+    z-index: -5;
+    
 }
 .vertical-padding {
 padding: 150px 0;
