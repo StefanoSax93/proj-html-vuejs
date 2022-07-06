@@ -16,8 +16,8 @@
                         <div class="board">{{process.id}}</div>
                         <div class="flex-grow-1 line d-none d-xl-flex"></div>
                     </div> 
-                    <div class="mx-3">
-                        <div class="fw-bold fs-5 my-3">{{process.title}}</div>
+                    <div class="mx-3 ">
+                        <div class="fw-bold fs-5 my-3 px-3">{{process.title}}</div>
                         <p>
                             Lorem ipsum dolor sit amet
                             consectetur.

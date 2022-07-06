@@ -45,6 +45,7 @@ margin-right: auto;
 }
 .bg_light {
     background-color: $color-bg-light;
+    transition: all 0.2s ease-in-out;
 }
 .bg_primary {
     background-color: $color-primary;
