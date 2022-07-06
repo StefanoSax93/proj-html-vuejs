@@ -1,7 +1,7 @@
 <template>
     <div class="bg_dark py-5" id="about">
         <div class="my-container py-5">
-            <div class="row flex-column flex-md-row">
+            <div class="row flex-column flex-md-row gap-5">
                 <div class="col">
                     <div class="subtitle">about the network</div>
                     <h1 class="text-white title"><span class="title-bg">The</span>Company</h1>
