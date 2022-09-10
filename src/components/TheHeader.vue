@@ -2,7 +2,7 @@
         <nav class="sticky-top py-3" :class="{'bg_light': scrollPosition > 100}">
             <div class="my-container">
                 <div class="d-flex justify-content-between align-items-center">
-                    <a class="_btn btn-nex">N e x <span class="text-black">g e n</span></a>
+                    <a href="" class="_btn btn-nex">N e x <span class="text-black">g e n</span></a>
                     <div class="d-flex align-items-center d-none d-lg-flex">
                         <span v-for="link in navLinks" :key="link">
                             <ul class="nav">

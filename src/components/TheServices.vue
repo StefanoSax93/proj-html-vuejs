@@ -1,6 +1,6 @@
 <template>
     <div class="bg_light py-5" id="services">
-        <div class="my-container py-5">
+        <div class="my-container py-5" data-aos="fade-left">
             <div class="subtitle">our business area</div>
             <div class="title mb-3">Exellence in <span class="title-bg text_primary">Services</span></div>
             <div class="d-flex flex-column flex-md-row gap-3 justify-content-between mb-5">

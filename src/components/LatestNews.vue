@@ -1,6 +1,6 @@
 <template>
     <div class="py-5" id="blog">
-        <div class="my-container py-5">
+        <div class="my-container py-5" data-aos="zoom-out-right">
             <div class="subtitle">our editorial content</div>
             <div class="title">Latest <span class="title-bg text_primary">News</span></div>
             <div class="d-flex flex-column flex-md-row justify-content-between mt-2 mb-4">

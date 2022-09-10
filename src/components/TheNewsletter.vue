@@ -1,6 +1,6 @@
 <template>
     <div class="py-5 bg-news">
-        <div class="my-container p-5">
+        <div class="my-container p-5" data-aos="zoom-out-left">
             <div class="row flex-column flex-md-row gap-3">
                 <div class="col">
                     <div class="subtitle">newsletter</div>
