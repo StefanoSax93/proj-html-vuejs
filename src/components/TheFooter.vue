@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="py-5 bg_dark">
-            <div class="my-container py-5 mb-5 text-white" data-aos="zoom-out">
+            <div class="my-container py-5 mb-5 text-white" data-aos="zoom-out" data-aos-easing="linear" data-aos-duration="1000">
                 <div class="row flex-column flex-md-row">
                     <div class="col col-md-3 mb-2">
                         <a href="" class="_btn btn-nex fs-6 d-inline-block mb-4">N e x <span class="text-white">g e n</span></a>

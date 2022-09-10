@@ -1,7 +1,7 @@
 <template>
     <div class="position-relative">
-        <img src="../../public/img/bg-6.jpg" alt="" class="jumbotron" data-aos="fade-right">
-        <div class="my-container vertical-padding" data-aos="fade-left">
+        <img src="../../public/img/bg-6.jpg" alt="" class="jumbotron" data-aos="fade-right" data-aos-easing="ease-in" data-aos-duration="1000">
+        <div class="my-container vertical-padding" data-aos="fade-left" data-aos-easing="ease-in" data-aos-duration="1000">
             <div class="row justify-content-center">
                 <div class="col d-none d-lg-block"></div>
                 <div class="col-10 col-lg-6">

@@ -1,6 +1,7 @@
 <template>
     <div class="bg_dark py-5" id="team">
-        <div class="my-container py-5" data-aos="zoom-in-down">
+        <div class="my-container py-5" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300"
+            data-aos-offset="0">
             <div class="subtitle">we like what we do</div>
             <div class="row flex-column flex-lg-row gap-1">
                 <div class="col col-lg-8">
@@ -58,7 +59,7 @@
 </template>
 
 <script>
-import {state} from '../store'
+import { state } from '../store'
 export default {
     name: 'TheTeam',
     computed: {

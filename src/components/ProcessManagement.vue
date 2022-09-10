@@ -1,6 +1,6 @@
 <template>
-    <div class="py-5" id="process" data-aos="zoom-in">
-        <div class="my-container pt-5 px-5 text-center" >
+    <div class="py-5" id="process" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+        <div class="my-container pt-5 px-5 text-center">
             <div class="subtitle">how it works in practice</div>
             <div class="title"><span class="text_primary title-bg">Process</span> Management</div>
             <p class="px-5 mt-3">
@@ -15,7 +15,7 @@
                         <div class="flex-grow-1 line d-none d-xl-flex"></div>
                         <div class="board">{{process.id}}</div>
                         <div class="flex-grow-1 line d-none d-xl-flex"></div>
-                    </div> 
+                    </div>
                     <div class="mx-3 ">
                         <div class="fw-bold fs-5 my-3 px-3">{{process.title}}</div>
                         <p>
@@ -30,7 +30,7 @@
 </template>
 
 <script>
-import {state} from '../store';
+import { state } from '../store';
 
 export default {
     name: 'ProcessManagement',
@@ -45,7 +45,8 @@ export default {
 
 <style lang="scss" scoped>
 @import '../assets/scss/variables';
+
 .line {
-    border-bottom:5px solid $color-primary-opaque;
+    border-bottom: 5px solid $color-primary-opaque;
 }
 </style>
